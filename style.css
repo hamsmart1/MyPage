@@ -117,3 +117,42 @@ body {
     color: #ff9800;
     text-decoration: underline;
 }
+@media (max-width: 768px) {
+    .profile-image {
+        width: 300px; /* ปรับขนาดของภาพให้เล็กลงบนโทรศัพท์ */
+        height: 300px; /* ปรับขนาดของภาพให้เล็กลงบนโทรศัพท์ */
+    }
+
+    .top-container h1 {
+        font-size: 3em; /* ปรับขนาดตัวอักษรใน <h1> ให้เล็กลงบนโทรศัพท์ */
+        letter-spacing: 5px; /* ปรับระยะห่างระหว่างตัวอักษร */
+    }
+
+    .top-container h2 {
+        font-size: 1.5em; /* ปรับขนาดตัวอักษรใน <h2> ให้เล็กลงบนโทรศัพท์ */
+    }
+
+    .top-container p {
+        font-size: 1.2em; /* ปรับขนาดตัวอักษรใน <p> ให้เล็กลงบนโทรศัพท์ */
+    }
+}
+
+/* ปรับขนาดในหน้าจอขนาดเล็กมาก เช่น โทรศัพท์แนวตั้ง */
+@media (max-width: 480px) {
+    .profile-image {
+        width: 250px; /* ปรับขนาดให้เล็กลงกว่านี้บนหน้าจอขนาดเล็ก */
+        height: 250px;
+    }
+
+    .top-container h1 {
+        font-size: 2.5em; /* ปรับขนาดตัวอักษรใน <h1> ให้เล็กลงมากขึ้น */
+    }
+
+    .top-container h2 {
+        font-size: 1.2em; /* ปรับขนาดตัวอักษรใน <h2> ให้เล็กลงมากขึ้น */
+    }
+
+    .top-container p {
+        font-size: 1em; /* ปรับขนาดตัวอักษรใน <p> ให้เล็กลงมากขึ้น */
+    }
+}
